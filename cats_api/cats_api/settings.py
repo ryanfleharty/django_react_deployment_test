@@ -25,7 +25,7 @@ SECRET_KEY = '*-g8r9r7pp1da4_6yh&go-&f$p-%8ig4!@l10eu67wa051_65k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-react-cats.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition
