@@ -8,7 +8,7 @@ export default class CatsContainer extends Component {
         }
     }
     getCats = async () => {
-        const cats = await fetch('http://localhost:8000/cats')
+        const cats = await fetch('http://django-react-cats.herokuapp.com/cats')
         const catsJson = await cats.json();
         console.log(catsJson);
         return catsJson
